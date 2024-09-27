@@ -4,13 +4,13 @@ function fazerRequisicao (url: string, method: 'GET' | 'POST') {
 }
 
 //tipagem protege de erros
-type ResquestDetails = {
+type ResquestDetails =  {
     url: string,
     method: 'GET' | 'POST'
 }
 
 //adição da tipagem à variável
-let requisicao:ResquestDetails = {
+var requisicao:ResquestDetails = {
     url: "https://www.google.com",
     method: 'GET'
 }
